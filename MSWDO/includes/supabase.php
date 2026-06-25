@@ -1,7 +1,7 @@
 <?php
 // Supabase credentials - retrieves from env if set, otherwise falls back to placeholders
-define('SUPABASE_URL', getenv('SUPABASE_URL') ?: 'https://YOUR_PROJECT_ID.supabase.co');
-define('SUPABASE_KEY', getenv('SUPABASE_KEY') ?: 'YOUR_ANON_OR_SERVICE_ROLE_KEY');
+define('SUPABASE_URL', getenv('SUPABASE_URL') ?: 'https://urbhpvvqnrqomawwxbne.supabase.co');
+define('SUPABASE_KEY', getenv('SUPABASE_KEY') ?: '');
 
 /**
  * Make a REST API call to Supabase
